@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     while line != '' :
         path1 = path + "/" + line.rsplit('/')[-1]
-        print "count = " + str(count) + ", " + str(line)
+      #  print "count = " + str(count) + ", " + str(line)
 
         X = hotnewsParser()
         X.parse(line, 'hotnews.ro', 'economy', today)
